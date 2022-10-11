@@ -61,32 +61,18 @@ const questions =function(){
         name:'license',
         message:'Chose the appropriate license for this project:',
         choices:[
-        "MIT",
-        "Apache",
-        "Academic",
         "GNU",
-        "ISC",
         "Mozilla",
+        "Apache",
+        "MIT",
+        "Boost",
+        "Unlicense",
         ],
-        default: ["MIT"],
         validate: nameInput => {
                     if (nameInput) {
                         return true;
                     } else {
                         console.log('Please choose a license!');
-                        return false; 
-                    }
-                }
-        },
-        {
-        type:'input',
-        name:'usage',
-        message:'How do you use this app?',
-        validate: nameInput => {
-                    if (nameInput) {
-                        return true;
-                    } else {
-                        console.log('Please enter a usage description!');
                         return false; 
                     }
                 }
@@ -100,6 +86,11 @@ const questions =function(){
         type:'input',
         name:'contributors',
         message:'Who are the contributors of this projects?'
+        },
+        {
+        type:'input',
+        name:'questions',
+        message:'What do I do if I have an issue?'
         },
         {
         type:'input',
