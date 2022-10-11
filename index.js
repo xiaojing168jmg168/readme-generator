@@ -1,9 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions =function(){
- return inquirer.prompt([
+const questions =[
         {
         type:'input',
         name:'projectTitle',
@@ -16,6 +17,24 @@ const questions =function(){
                         return false; 
                     }
                 } 
+        },
+        {
+        type:'input',
+        name:'github',
+        message:'What is your GitHub userName?',
+        validate: nameInput => {
+                    if (nameInput) {
+                        return true;
+                    } else {
+                        console.log('Please enter your GitHub username!');
+                        return false; 
+                    }
+                } 
+        },
+        {
+        type:'input',
+        name:'repo',
+        message:'Enter the name of your application Github repository.',
         },
         {
         type:'input',
@@ -92,19 +111,7 @@ const questions =function(){
         name:'questions',
         message:'What do I do if I have an issue?'
         },
-        {
-        type:'input',
-        name:'github',
-        message:'What is your GitHub userName?',
-        validate: nameInput => {
-                    if (nameInput) {
-                        return true;
-                    } else {
-                        console.log('Please enter your GitHub username!');
-                        return false; 
-                    }
-                } 
-        },
+      
         {
         type:'input',
         name:'email',
@@ -118,18 +125,29 @@ const questions =function(){
                     }
                 }
         },
-]);
+];
+
+//Create a function to user input
+function userInput(){
+return inquirer.prompt(questions);
 }
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+fs.writeFile(`${fileName}.md`,data,
+(err) => err ? console.log(err) : console.log(`${fileName}.md has been generated.`))
+}
 
 // TODO: Create a function to initialize app
-function init() {
-questions()
-.then(answers => {
-console.log(answers);
-});
+async function init() {
+//Async function using questions promisify
+try{
+const answers = await userInput();
+writeToFile(answers.projectTitle,generateMarkdown(answers));
 
+}catch(err){
+console.log(err);
+}
 }
 
 // Function call to initialize app
