@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/xiaojing168jmg168/readme-generator/issues"
   },
-  "homepage": "https://github.com/xiaojing168jmg168/readme-generator#readme"
+  "homepage": "https://github.com/xiaojing168jmg168/readme-generator#readme",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "inquirer": "^8.2.4"
+  }
 }
