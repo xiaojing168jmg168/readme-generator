@@ -1,12 +1,12 @@
 
-<h1>READE Generator👋</h1>
+<h1>README Generator👋</h1>
 
 ## Badges
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
 
 
 ## Description
-🔍 This application was created to generate a high-quality README , depending on a series of questions a user answers questions in their command line using Node.js
+🔍 This application was created to generate a high-quality, professional README depending on a user answers questions in the command line using Node.js.
 
 
 ## Table of Contents
@@ -19,11 +19,11 @@
 
 
 ## Installation
-💾 clone the repository, npm install inquirer
+💾 The user should clone the repository from GitHub. npm install file-system, npm install inquirer.
 
 
 ## usage
-💻 use inquirer from your command line to answer questions about your project
+💻 Use inquirer from your command line to answer questions about your project.
 
 
 ## Contributing
@@ -32,15 +32,14 @@
 
 ## License
 
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)</br>
-Permission to use this application is granted under the Apache license. 
----
+![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)</br>
+<p>Permission to use this application is granted under the [Mozilla] license.</p>
+ [Mozilla](https://choosealicense.com/licenses/mpl-2.0)
 
-[Apache](https://choosealicense.com/licenses/mpl-2.0)
 
 
 ## Tests
-✏️ No test included
+✏️ No test included.
 
 
 ## Questions
