@@ -7,7 +7,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions =[
         {
         type:'input',
-        name:'projectTitle',
+        name:'title',
         message:'What is the project title?',
         validate: nameInput => {
                     if (nameInput) {
@@ -143,7 +143,7 @@ async function init() {
 //Async function using questions promisify
 try{
 const answers = await userInput();
-writeToFile(answers.projectTitle,generateMarkdown(answers));
+writeToFile(answers.repo,generateMarkdown(answers));
 
 }catch(err){
 console.log(err);
