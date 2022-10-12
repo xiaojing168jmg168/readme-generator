@@ -1,12 +1,12 @@
 
-<h1>README Generator👋</h1>
+<h1>READE Generator👋</h1>
 
 ## Badges
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 
 
 ## Description
-🔍 Use command line answer questions to create a high-quality README.md
+🔍 This application was created to generate a high-quality README , depending on a series of questions a user answers questions in their command line using Node.js
 
 
 ## Table of Contents
@@ -19,11 +19,11 @@
 
 
 ## Installation
-💾 Clone repository, npm install inquirer
+💾 clone the repository, npm install inquirer
 
 
 ## usage
-💻 Answer questions in command line about your project
+💻 use inquirer from your command line to answer questions about your project
 
 
 ## Contributing
@@ -32,10 +32,11 @@
 
 ## License
 
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)</br>
-<p>Permission to use this application is granted under the MIT license.[MIT](https://choosealicense.com/licenses/mit)</p> 
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)</br>
+Permission to use this application is granted under the Apache license. 
 ---
 
+[Apache](https://choosealicense.com/licenses/mpl-2.0)
 
 
 ## Tests
