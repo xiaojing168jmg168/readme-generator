@@ -2,11 +2,11 @@
 <h1>README Generator👋</h1>
 
 ## Badges
-![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
+![badge](https://img.shields.io/badge/license-GNU-brightgreen)
 
 
 ## Description
-🔍 This application was created to generate a high-quality, professional README depending on a user answers questions in the command line using Node.js.
+🔍 This application was created to generate a high-quality, professional README depending on a user answers questions in their command line .
 
 
 ## Table of Contents
@@ -19,7 +19,7 @@
 
 
 ## Installation
-💾 The user should clone the repository from GitHub. npm install file-system, npm install inquirer.
+💾 First clone the repository, then npm install inquirer 
 
 
 ## usage
@@ -32,9 +32,10 @@
 
 ## License
 
-![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)</br>
-<p>Permission to use this application is granted under the [Mozilla] license.</p>
- [Mozilla](https://choosealicense.com/licenses/mpl-2.0)
+![badge](https://img.shields.io/badge/license-GNU-brightgreen)</br>
+<p>Permission to use this application is granted under the GNU license.</p>
+ 
+[GNU](https://choosealicense.com/licenses/agpl-3.0)
 
 
 

@@ -31,7 +31,7 @@ return "";
 function renderLicenseSection(license) {
 return `
 ${renderLicenseBadge(license)}</br>
-<p>Permission to use this application is granted under the [${license}] license.</p>
+<p>Permission to use this application is granted under the ${license} license.</p>
 `
 }
 
@@ -70,7 +70,8 @@ ${renderLicenseBadge(data.license)}
 
 
 ## License
-${renderLicenseSection(data.license)} ${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)} 
+${renderLicenseLink(data.license)}
 
 
 
