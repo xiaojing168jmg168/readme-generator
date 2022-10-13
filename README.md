@@ -28,8 +28,9 @@
 
 
 ## Installation
-💾 ```
-npm init <br/>
+💾 <br/>```
+npm init ```
+<br/>```
 npm install inquirer ```
 
      
