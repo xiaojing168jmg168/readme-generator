@@ -129,7 +129,9 @@ return inquirer.prompt(questions);
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 fs.writeFile(`${fileName}.md`,data,
+
 (err) => err ? console.log(err) : console.log(`${fileName}.md has been generated.`))
+
 }
 
 // TODO: Create a function to initialize app
@@ -137,7 +139,7 @@ async function init() {
 //Async function using questions promisify
 try{
 const answers = await userInput();
-writeToFile(answers.repo,generateMarkdown(answers));
+writeToFile('./dist/README.md',generateMarkdown(answers));
 
 }catch(err){
 console.log(err);

@@ -1,3 +1,4 @@
+
 <h1>README Generator👋</h1>
 
 ## Badges
@@ -15,7 +16,7 @@
 
 
 ## Description
-🔍 This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js. The ReadMe.md file is created in the dist directory and can be found there.
+🔍 This application was created to generate a high-quality, professional README depending on a 
 
 
 ## Table of Contents
@@ -28,16 +29,11 @@
 
 
 ## Installation
-💾 ```
-npm init <br/>
-npm install inquirer ```
-
-     
+💾 series of questions a user answers in their command line uwing Node.js. The ReadMe.md file is created in the dist directory and can be found 
 
 
 ## usage
-💻 Run the following command in the command line and answer the prompted questions about you project: <br/> ```
-node index.js ```
+💻 here.Use inquirer from your command line to answer questions about your project.
 
 
 ## Contributing
@@ -54,7 +50,7 @@ node index.js ```
 
 
 ## Tests
-``` npm test ```
+npm test
 
 ## Questions
 ✋Reach me here:<br/>

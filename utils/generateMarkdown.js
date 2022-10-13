@@ -41,6 +41,16 @@ function generateMarkdown(data) {
 <h1>${data.title}👋</h1>
 
 ## Badges
+![badge](https://img.shields.io/github/languages/top/${data.github}/${data.repo})
+<br> 
+![badge](https://img.shields.io/github/languages/count/${data.github}/${data.repo})
+<br>
+![badge](https://img.shields.io/github/issues/${data.github}/${data.repo})
+<br>
+![badge](https://img.shields.io/github/issues-closed/${data.github}/${data.repo})
+<br>
+![badge](https://img.shields.io/github/last-commit/${data.github}/${data.repo})
+<br>
 ${renderLicenseBadge(data.license)}
 
 
@@ -76,8 +86,7 @@ ${renderLicenseLink(data.license)}
 
 
 ## Tests
-✏️ ${data.tests}
-
+${data.tests}
 
 ## Questions
 ✋Reach me here:<br/>
