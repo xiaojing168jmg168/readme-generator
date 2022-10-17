@@ -15,7 +15,7 @@
 
 
 ## Description
-🔍 This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js. The ReadMe.md file is created in the dist directory and can be found there.
+🔍 This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js. The ReadMe.md file is created in the dist directory and can be found [here](./dist/README.md).
 
 
 ## Table of Contents
@@ -40,7 +40,7 @@ npm install inquirer ```
 💻 Run the following command in the command line and answer the prompted questions about you project: <br/> ```
 node index.js ```
 
-<video autosize: true controls>
+<video  width="500" height="400" controls>
   <source src="./utils/readme-generator-1.mp4" type="video/mp4">
 </video>
 
