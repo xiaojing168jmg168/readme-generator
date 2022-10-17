@@ -139,7 +139,7 @@ async function init() {
 //Async function using questions promisify
 try{
 const answers = await userInput();
-writeToFile('./dist/README.md',generateMarkdown(answers));
+writeToFile('./dist/README',generateMarkdown(answers));
 
 }catch(err){
 console.log(err);

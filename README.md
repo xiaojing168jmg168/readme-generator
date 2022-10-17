@@ -40,6 +40,9 @@ npm install inquirer ```
 💻 Run the following command in the command line and answer the prompted questions about you project: <br/> ```
 node index.js ```
 
+<video autosize: true controls>
+  <source src="./utils/readme-generator-1.mp4" type="video/mp4">
+</video>
 
 ## Contributing
 👥 Xiaojing Deng
